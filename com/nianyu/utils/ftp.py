@@ -4,7 +4,7 @@ __author__ = 'lixiaojian'
 import paramiko
 import os
 
-class SSH:
+class SSH(object):
     """
     1、执行命令
     2、拷贝文件
